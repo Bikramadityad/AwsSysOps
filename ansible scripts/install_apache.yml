@@ -1,0 +1,11 @@
+---
+- hosts: tag_Name_web
+  become: yes
+  tasks:
+    - name: install apache2
+      apt: name=apache2 update_cache=yes state=latest
+    - name: Copy index.html
+      copy:
+        src: index.html
+        dest: /var/www/html/index.html
+        remote_src: no
