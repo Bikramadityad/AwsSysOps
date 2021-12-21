@@ -13,12 +13,13 @@ variable "ami_id" {
 
 variable "access_key" {
   type    = string
-  default = "AKIARVD3EUNA4S42HDGI"
+  default = "deleted while uploading"
 }
 
 variable "secret_key" {
   type    = string
-  default = "ZtPXp1hKyizrzmYIp0oD5SPmvnoV9kxFGKMSVoMp"
+  default = "deleted while uploading
+"
 }
 
 variable "instance_type" {
